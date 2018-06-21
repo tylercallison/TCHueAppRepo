@@ -1,0 +1,20 @@
+<Page
+    x:Class="TC.HueApplication.Views.MainRoomPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TC.HueApplication.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+    <Frame x:Name="MainRoomPageFrame">
+            <RelativePanel x:Name="MRPPanel" HorizontalAlignment="Center" Height="100" VerticalAlignment="Center" Width="100">
+                <TextBlock x:Name="TestTextBlock" HorizontalAlignment="Center" Height="20" Text="MainRoomPage" TextWrapping="Wrap" VerticalAlignment="Center" Width="62"/>
+            </RelativePanel>
+
+        </Frame>
+
+    </Grid>
+</Page>

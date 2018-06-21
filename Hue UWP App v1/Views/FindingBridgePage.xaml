@@ -1,0 +1,19 @@
+<Page
+    x:Class="TC.HueApplication.Views.FindingBridgePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TC.HueApplication.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+  <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Frame x:Name="SearchingFrame">
+      <RelativePanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock x:Name="SearchingBlock" HorizontalAlignment="Center" Text="Searching for bridges on your local network" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="48" FontFamily="Segoe UI" Padding="8,8,8,8"/>
+        <ProgressRing x:Name="LoadingIcon" HorizontalAlignment="Center" Height="153" VerticalAlignment="Top" Width="167" FontFamily="Segoe UI" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RelativePanel.Below="SearchingBlock" RelativePanel.AlignHorizontalCenterWith="SearchingBlock"/>
+      </RelativePanel>
+    </Frame>
+  </Grid>
+</Page>
